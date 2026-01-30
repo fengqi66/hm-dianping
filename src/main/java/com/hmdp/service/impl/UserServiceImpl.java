@@ -102,7 +102,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
 
 //        session.setAttribute("user", BeanUtil.copyProperties(user, UserDTO.class));
 
-        // TODO 8 返回token
+        // 8 返回token
         return Result.ok(token);
     }
 
